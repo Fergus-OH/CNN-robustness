@@ -1,5 +1,5 @@
 {
-    "name": "Experiment",
+    "name": "Vanilla_WideResNet16_5_ConvNorm+BN_AdamW_",
     "n_gpu": 1,
     "seed": 12,
 
@@ -9,10 +9,10 @@
     },
 
     "arch": {
-        "type": "resnet18",
+        "type": "ResNet16_5",
         "args": {"num_classes": 10,
                  "norm_layer_type": "no",
-                 "conv_layer_type": "prec_conv",
+                 "conv_layer_type": "conv",
                  "linear_layer_type": "linear",
                  "activation_layer_type": "relu"}
     },
@@ -22,7 +22,7 @@
     "data_loader": {
         "type": "CIFAR10DataLoader",
 	"args":{
-            "data_dir": "**data dir**",
+            "data_dir": "dataset_cifar10",
             "batch_size": 128,
             "shuffle": true,
             "num_batches": 0,
@@ -33,13 +33,12 @@
     },
 
     "optimizer": {
-        "type": "SGD",
+        "type": "AdamW",
         "args":{
-            "lr": 0.1,
-            "momentum": 0.9,
-            "weight_decay": 1e-4
+            "lr": 1e-3
         }
     },
+
 
 
     "train_loss": "cross_entropy",
@@ -57,7 +56,7 @@
     },
 
     "trainer": {
-        "epochs": 120,
+        "epochs": 30,
         "save_dir": "saved/",
         "save_period": 1,
         "verbosity": 2,

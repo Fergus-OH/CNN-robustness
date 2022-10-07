@@ -1,0 +1,421 @@
+2021-12-11 18:52:58,259 - train - INFO - Trainable parameters: 4285242
+2021-12-11 18:56:48,401 - trainer - INFO -     epoch          : 1
+2021-12-11 18:56:48,402 - trainer - INFO -     loss           : 8.384889158446466
+2021-12-11 18:56:48,402 - trainer - INFO -     my_metric      : 0.9142343350383632
+2021-12-11 18:56:48,403 - trainer - INFO -     my_metric2     : 2.921379475703325
+2021-12-11 18:56:48,404 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 18:56:48,404 - trainer - INFO -     val_loss       : 1.8818049383163453
+2021-12-11 18:56:48,405 - trainer - INFO -     val_my_metric  : 0.3370000000000001
+2021-12-11 18:56:48,405 - trainer - INFO -     val_my_metric2 : 0.8394000000000001
+2021-12-11 18:56:48,406 - trainer - INFO -     test_loss      : 1.8741417479515077
+2021-12-11 18:56:48,406 - trainer - INFO -     test_my_metric : 0.35040000000000016
+2021-12-11 18:56:48,407 - trainer - INFO -     test_my_metric2: 0.8446999999999996
+2021-12-11 18:56:48,606 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 19:00:35,473 - trainer - INFO -     epoch          : 2
+2021-12-11 19:00:35,474 - trainer - INFO -     loss           : 7.721352213179059
+2021-12-11 19:00:35,475 - trainer - INFO -     my_metric      : 1.163850703324808
+2021-12-11 19:00:35,475 - trainer - INFO -     my_metric2     : 3.2367167519181588
+2021-12-11 19:00:35,476 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:00:35,476 - trainer - INFO -     val_loss       : 1.5753609371185302
+2021-12-11 19:00:35,477 - trainer - INFO -     val_my_metric  : 0.44060000000000005
+2021-12-11 19:00:35,477 - trainer - INFO -     val_my_metric2 : 0.9169999999999999
+2021-12-11 19:00:35,478 - trainer - INFO -     test_loss      : 1.574779132604599
+2021-12-11 19:00:35,478 - trainer - INFO -     test_my_metric : 0.44260000000000005
+2021-12-11 19:00:35,479 - trainer - INFO -     test_my_metric2: 0.9154000000000007
+2021-12-11 19:00:35,689 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 19:04:22,954 - trainer - INFO -     epoch          : 3
+2021-12-11 19:04:22,955 - trainer - INFO -     loss           : 7.2627473642759
+2021-12-11 19:04:22,956 - trainer - INFO -     my_metric      : 1.3164202365728899
+2021-12-11 19:04:22,957 - trainer - INFO -     my_metric2     : 3.372490409207161
+2021-12-11 19:04:22,957 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:04:22,958 - trainer - INFO -     val_loss       : 1.4391757369041442
+2021-12-11 19:04:22,959 - trainer - INFO -     val_my_metric  : 0.4993999999999999
+2021-12-11 19:04:22,959 - trainer - INFO -     val_my_metric2 : 0.9251999999999999
+2021-12-11 19:04:22,960 - trainer - INFO -     test_loss      : 1.433530160188675
+2021-12-11 19:04:22,960 - trainer - INFO -     test_my_metric : 0.49889999999999995
+2021-12-11 19:04:22,961 - trainer - INFO -     test_my_metric2: 0.9295000000000003
+2021-12-11 19:04:23,196 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 19:08:10,611 - trainer - INFO -     epoch          : 4
+2021-12-11 19:08:10,612 - trainer - INFO -     loss           : 6.904538520766646
+2021-12-11 19:08:10,613 - trainer - INFO -     my_metric      : 1.4492447250639384
+2021-12-11 19:08:10,613 - trainer - INFO -     my_metric2     : 3.456066176470588
+2021-12-11 19:08:10,614 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:08:10,615 - trainer - INFO -     val_loss       : 1.2507981324195863
+2021-12-11 19:08:10,615 - trainer - INFO -     val_my_metric  : 0.5625999999999999
+2021-12-11 19:08:10,616 - trainer - INFO -     val_my_metric2 : 0.9569999999999997
+2021-12-11 19:08:10,616 - trainer - INFO -     test_loss      : 1.2667890012264251
+2021-12-11 19:08:10,616 - trainer - INFO -     test_my_metric : 0.5622999999999998
+2021-12-11 19:08:10,617 - trainer - INFO -     test_my_metric2: 0.9549000000000002
+2021-12-11 19:08:10,850 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 19:11:58,605 - trainer - INFO -     epoch          : 5
+2021-12-11 19:11:58,606 - trainer - INFO -     loss           : 6.657051198317877
+2021-12-11 19:11:58,606 - trainer - INFO -     my_metric      : 1.5443893861892581
+2021-12-11 19:11:58,607 - trainer - INFO -     my_metric2     : 3.504923273657289
+2021-12-11 19:11:58,607 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:11:58,608 - trainer - INFO -     val_loss       : 1.2073193025588989
+2021-12-11 19:11:58,608 - trainer - INFO -     val_my_metric  : 0.6032
+2021-12-11 19:11:58,609 - trainer - INFO -     val_my_metric2 : 0.9497999999999998
+2021-12-11 19:11:58,609 - trainer - INFO -     test_loss      : 1.2192550790309906
+2021-12-11 19:11:58,610 - trainer - INFO -     test_my_metric : 0.5969000000000001
+2021-12-11 19:11:58,610 - trainer - INFO -     test_my_metric2: 0.9517000000000004
+2021-12-11 19:11:58,833 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 19:15:46,442 - trainer - INFO -     epoch          : 6
+2021-12-11 19:15:46,443 - trainer - INFO -     loss           : 6.4771500956981685
+2021-12-11 19:15:46,444 - trainer - INFO -     my_metric      : 1.6132552749360614
+2021-12-11 19:15:46,444 - trainer - INFO -     my_metric2     : 3.5416520140664964
+2021-12-11 19:15:46,445 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:15:46,445 - trainer - INFO -     val_loss       : 1.1797980856895447
+2021-12-11 19:15:46,446 - trainer - INFO -     val_my_metric  : 0.6122000000000001
+2021-12-11 19:15:46,446 - trainer - INFO -     val_my_metric2 : 0.9611999999999999
+2021-12-11 19:15:46,447 - trainer - INFO -     test_loss      : 1.2059442520141601
+2021-12-11 19:15:46,447 - trainer - INFO -     test_my_metric : 0.6012000000000001
+2021-12-11 19:15:46,448 - trainer - INFO -     test_my_metric2: 0.9615999999999996
+2021-12-11 19:15:46,668 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 19:19:34,165 - trainer - INFO -     epoch          : 7
+2021-12-11 19:19:34,167 - trainer - INFO -     loss           : 6.331445315762249
+2021-12-11 19:19:34,167 - trainer - INFO -     my_metric      : 1.668282448849105
+2021-12-11 19:19:34,168 - trainer - INFO -     my_metric2     : 3.5751078964194374
+2021-12-11 19:19:34,168 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:19:34,169 - trainer - INFO -     val_loss       : 1.1511380517482757
+2021-12-11 19:19:34,169 - trainer - INFO -     val_my_metric  : 0.6212000000000001
+2021-12-11 19:19:34,170 - trainer - INFO -     val_my_metric2 : 0.9569999999999999
+2021-12-11 19:19:34,170 - trainer - INFO -     test_loss      : 1.179300361275673
+2021-12-11 19:19:34,171 - trainer - INFO -     test_my_metric : 0.6120000000000002
+2021-12-11 19:19:34,171 - trainer - INFO -     test_my_metric2: 0.9552999999999998
+2021-12-11 19:19:34,404 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 19:23:21,881 - trainer - INFO -     epoch          : 8
+2021-12-11 19:23:21,882 - trainer - INFO -     loss           : 6.223920447442233
+2021-12-11 19:23:21,882 - trainer - INFO -     my_metric      : 1.7088634910485936
+2021-12-11 19:23:21,883 - trainer - INFO -     my_metric2     : 3.590628996163683
+2021-12-11 19:23:21,884 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:23:21,884 - trainer - INFO -     val_loss       : 1.0556338715553284
+2021-12-11 19:23:21,885 - trainer - INFO -     val_my_metric  : 0.6496
+2021-12-11 19:23:21,885 - trainer - INFO -     val_my_metric2 : 0.9638000000000004
+2021-12-11 19:23:21,886 - trainer - INFO -     test_loss      : 1.0900316637754441
+2021-12-11 19:23:21,886 - trainer - INFO -     test_my_metric : 0.6296999999999998
+2021-12-11 19:23:21,887 - trainer - INFO -     test_my_metric2: 0.9631999999999998
+2021-12-11 19:23:22,142 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 19:27:09,752 - trainer - INFO -     epoch          : 9
+2021-12-11 19:27:09,753 - trainer - INFO -     loss           : 6.131458594366108
+2021-12-11 19:27:09,754 - trainer - INFO -     my_metric      : 1.7400935102301789
+2021-12-11 19:27:09,754 - trainer - INFO -     my_metric2     : 3.6074608375959074
+2021-12-11 19:27:09,755 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:27:09,756 - trainer - INFO -     val_loss       : 1.0493339943885802
+2021-12-11 19:27:09,756 - trainer - INFO -     val_my_metric  : 0.6566
+2021-12-11 19:27:09,757 - trainer - INFO -     val_my_metric2 : 0.9715999999999996
+2021-12-11 19:27:09,757 - trainer - INFO -     test_loss      : 1.0887940353155137
+2021-12-11 19:27:09,758 - trainer - INFO -     test_my_metric : 0.6414000000000002
+2021-12-11 19:27:09,758 - trainer - INFO -     test_my_metric2: 0.9660999999999998
+2021-12-11 19:27:09,997 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 19:30:57,386 - trainer - INFO -     epoch          : 10
+2021-12-11 19:30:57,388 - trainer - INFO -     loss           : 6.052264551982246
+2021-12-11 19:30:57,388 - trainer - INFO -     my_metric      : 1.772410485933504
+2021-12-11 19:30:57,389 - trainer - INFO -     my_metric2     : 3.621403452685422
+2021-12-11 19:30:57,389 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:30:57,390 - trainer - INFO -     val_loss       : 1.033161563873291
+2021-12-11 19:30:57,390 - trainer - INFO -     val_my_metric  : 0.6585999999999999
+2021-12-11 19:30:57,391 - trainer - INFO -     val_my_metric2 : 0.9654
+2021-12-11 19:30:57,391 - trainer - INFO -     test_loss      : 1.0720108509063722
+2021-12-11 19:30:57,392 - trainer - INFO -     test_my_metric : 0.6491999999999999
+2021-12-11 19:30:57,392 - trainer - INFO -     test_my_metric2: 0.9603999999999993
+2021-12-11 19:30:57,599 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 19:34:45,219 - trainer - INFO -     epoch          : 11
+2021-12-11 19:34:45,220 - trainer - INFO -     loss           : 5.964116507021667
+2021-12-11 19:34:45,221 - trainer - INFO -     my_metric      : 1.7997122762148337
+2021-12-11 19:34:45,221 - trainer - INFO -     my_metric2     : 3.637400095907928
+2021-12-11 19:34:45,222 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:34:45,223 - trainer - INFO -     val_loss       : 1.064784996509552
+2021-12-11 19:34:45,223 - trainer - INFO -     val_my_metric  : 0.6574000000000002
+2021-12-11 19:34:45,224 - trainer - INFO -     val_my_metric2 : 0.9643999999999996
+2021-12-11 19:34:45,224 - trainer - INFO -     test_loss      : 1.0970473700761796
+2021-12-11 19:34:45,225 - trainer - INFO -     test_my_metric : 0.6398000000000001
+2021-12-11 19:34:45,225 - trainer - INFO -     test_my_metric2: 0.9604999999999998
+2021-12-11 19:34:45,432 - trainer - INFO - Saving current model: current model save at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_epoch_11.pth ...
+2021-12-11 19:38:33,152 - trainer - INFO -     epoch          : 12
+2021-12-11 19:38:33,154 - trainer - INFO -     loss           : 5.8954345144884055
+2021-12-11 19:38:33,154 - trainer - INFO -     my_metric      : 1.8344789002557544
+2021-12-11 19:38:33,155 - trainer - INFO -     my_metric2     : 3.6445732097186703
+2021-12-11 19:38:33,156 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:38:33,156 - trainer - INFO -     val_loss       : 0.99694899559021
+2021-12-11 19:38:33,157 - trainer - INFO -     val_my_metric  : 0.6738000000000003
+2021-12-11 19:38:33,157 - trainer - INFO -     val_my_metric2 : 0.9687999999999997
+2021-12-11 19:38:33,157 - trainer - INFO -     test_loss      : 1.040608319044113
+2021-12-11 19:38:33,158 - trainer - INFO -     test_my_metric : 0.6561999999999999
+2021-12-11 19:38:33,159 - trainer - INFO -     test_my_metric2: 0.9643999999999993
+2021-12-11 19:38:33,382 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 19:42:21,061 - trainer - INFO -     epoch          : 13
+2021-12-11 19:42:21,063 - trainer - INFO -     loss           : 5.837610232403211
+2021-12-11 19:42:21,063 - trainer - INFO -     my_metric      : 1.8517223465473143
+2021-12-11 19:42:21,064 - trainer - INFO -     my_metric2     : 3.6605698529411765
+2021-12-11 19:42:21,064 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:42:21,066 - trainer - INFO -     val_loss       : 0.8977876818180084
+2021-12-11 19:42:21,078 - trainer - INFO -     val_my_metric  : 0.704
+2021-12-11 19:42:21,079 - trainer - INFO -     val_my_metric2 : 0.978
+2021-12-11 19:42:21,079 - trainer - INFO -     test_loss      : 0.9523562771081925
+2021-12-11 19:42:21,080 - trainer - INFO -     test_my_metric : 0.6894
+2021-12-11 19:42:21,080 - trainer - INFO -     test_my_metric2: 0.9755999999999996
+2021-12-11 19:42:21,308 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 19:46:08,835 - trainer - INFO -     epoch          : 14
+2021-12-11 19:46:08,836 - trainer - INFO -     loss           : 5.76716324679382
+2021-12-11 19:46:08,837 - trainer - INFO -     my_metric      : 1.8779971227621484
+2021-12-11 19:46:08,837 - trainer - INFO -     my_metric2     : 3.6657049232736574
+2021-12-11 19:46:08,838 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:46:08,838 - trainer - INFO -     val_loss       : 0.8878881514072419
+2021-12-11 19:46:08,839 - trainer - INFO -     val_my_metric  : 0.6966000000000002
+2021-12-11 19:46:08,839 - trainer - INFO -     val_my_metric2 : 0.9751999999999995
+2021-12-11 19:46:08,840 - trainer - INFO -     test_loss      : 0.9549874407052994
+2021-12-11 19:46:08,840 - trainer - INFO -     test_my_metric : 0.6722000000000002
+2021-12-11 19:46:08,841 - trainer - INFO -     test_my_metric2: 0.9726999999999996
+2021-12-11 19:46:09,070 - trainer - INFO - Saving current model: current model save at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_epoch_14.pth ...
+2021-12-11 19:49:56,134 - trainer - INFO -     epoch          : 15
+2021-12-11 19:49:56,134 - trainer - INFO -     loss           : 5.722181888492516
+2021-12-11 19:49:56,135 - trainer - INFO -     my_metric      : 1.8935421994884907
+2021-12-11 19:49:56,135 - trainer - INFO -     my_metric2     : 3.6708160166240416
+2021-12-11 19:49:56,135 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:49:56,135 - trainer - INFO -     val_loss       : 0.968013790845871
+2021-12-11 19:49:56,136 - trainer - INFO -     val_my_metric  : 0.7041999999999998
+2021-12-11 19:49:56,136 - trainer - INFO -     val_my_metric2 : 0.9751999999999996
+2021-12-11 19:49:56,136 - trainer - INFO -     test_loss      : 1.02093421459198
+2021-12-11 19:49:56,136 - trainer - INFO -     test_my_metric : 0.6736999999999997
+2021-12-11 19:49:56,137 - trainer - INFO -     test_my_metric2: 0.9728999999999993
+2021-12-11 19:49:56,351 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 19:53:43,180 - trainer - INFO -     epoch          : 16
+2021-12-11 19:53:43,182 - trainer - INFO -     loss           : 5.664536762877804
+2021-12-11 19:53:43,182 - trainer - INFO -     my_metric      : 1.9124000959079284
+2021-12-11 19:53:43,183 - trainer - INFO -     my_metric2     : 3.6840433184143224
+2021-12-11 19:53:43,183 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:53:43,184 - trainer - INFO -     val_loss       : 0.883360435962677
+2021-12-11 19:53:43,184 - trainer - INFO -     val_my_metric  : 0.7214
+2021-12-11 19:53:43,185 - trainer - INFO -     val_my_metric2 : 0.9801999999999995
+2021-12-11 19:53:43,185 - trainer - INFO -     test_loss      : 0.9445186793804169
+2021-12-11 19:53:43,186 - trainer - INFO -     test_my_metric : 0.6915999999999997
+2021-12-11 19:53:43,186 - trainer - INFO -     test_my_metric2: 0.9751999999999991
+2021-12-11 19:53:43,408 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 19:57:30,544 - trainer - INFO -     epoch          : 17
+2021-12-11 19:57:30,545 - trainer - INFO -     loss           : 5.615837526443364
+2021-12-11 19:57:30,545 - trainer - INFO -     my_metric      : 1.9290001598465472
+2021-12-11 19:57:30,546 - trainer - INFO -     my_metric2     : 3.6897937979539632
+2021-12-11 19:57:30,546 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 19:57:30,547 - trainer - INFO -     val_loss       : 0.8346610534191131
+2021-12-11 19:57:30,547 - trainer - INFO -     val_my_metric  : 0.7392
+2021-12-11 19:57:30,548 - trainer - INFO -     val_my_metric2 : 0.9815999999999998
+2021-12-11 19:57:30,548 - trainer - INFO -     test_loss      : 0.9026824182271957
+2021-12-11 19:57:30,549 - trainer - INFO -     test_my_metric : 0.7050000000000002
+2021-12-11 19:57:30,549 - trainer - INFO -     test_my_metric2: 0.9770999999999995
+2021-12-11 19:57:30,780 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 20:01:17,938 - trainer - INFO -     epoch          : 18
+2021-12-11 20:01:17,939 - trainer - INFO -     loss           : 5.569303516689164
+2021-12-11 20:01:17,939 - trainer - INFO -     my_metric      : 1.9531609654731459
+2021-12-11 20:01:17,940 - trainer - INFO -     my_metric2     : 3.691004635549872
+2021-12-11 20:01:17,940 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:01:17,941 - trainer - INFO -     val_loss       : 0.8080227303504944
+2021-12-11 20:01:17,942 - trainer - INFO -     val_my_metric  : 0.7190000000000002
+2021-12-11 20:01:17,942 - trainer - INFO -     val_my_metric2 : 0.9785999999999998
+2021-12-11 20:01:17,943 - trainer - INFO -     test_loss      : 0.883730611205101
+2021-12-11 20:01:17,943 - trainer - INFO -     test_my_metric : 0.6900999999999999
+2021-12-11 20:01:17,944 - trainer - INFO -     test_my_metric2: 0.9769999999999993
+2021-12-11 20:01:18,171 - trainer - INFO - Saving current model: current model save at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_epoch_18.pth ...
+2021-12-11 20:05:05,373 - trainer - INFO -     epoch          : 19
+2021-12-11 20:05:05,374 - trainer - INFO -     loss           : 5.530078103780137
+2021-12-11 20:05:05,374 - trainer - INFO -     my_metric      : 1.9630155051150895
+2021-12-11 20:05:05,375 - trainer - INFO -     my_metric2     : 3.702281809462916
+2021-12-11 20:05:05,375 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:05:05,376 - trainer - INFO -     val_loss       : 0.8462224876880646
+2021-12-11 20:05:05,376 - trainer - INFO -     val_my_metric  : 0.722
+2021-12-11 20:05:05,377 - trainer - INFO -     val_my_metric2 : 0.9799999999999998
+2021-12-11 20:05:05,377 - trainer - INFO -     test_loss      : 0.9188096380233765
+2021-12-11 20:05:05,378 - trainer - INFO -     test_my_metric : 0.6918
+2021-12-11 20:05:05,378 - trainer - INFO -     test_my_metric2: 0.9755999999999999
+2021-12-11 20:05:05,581 - trainer - INFO - Saving current model: current model save at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_epoch_19.pth ...
+2021-12-11 20:08:53,028 - trainer - INFO -     epoch          : 20
+2021-12-11 20:08:53,030 - trainer - INFO -     loss           : 5.47481590936251
+2021-12-11 20:08:53,030 - trainer - INFO -     my_metric      : 1.9846187659846546
+2021-12-11 20:08:53,031 - trainer - INFO -     my_metric2     : 3.7064138427109983
+2021-12-11 20:08:53,031 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:08:53,032 - trainer - INFO -     val_loss       : 0.8117767786979675
+2021-12-11 20:08:53,032 - trainer - INFO -     val_my_metric  : 0.7465999999999999
+2021-12-11 20:08:53,033 - trainer - INFO -     val_my_metric2 : 0.9857999999999998
+2021-12-11 20:08:53,033 - trainer - INFO -     test_loss      : 0.885459133386612
+2021-12-11 20:08:53,034 - trainer - INFO -     test_my_metric : 0.714
+2021-12-11 20:08:53,034 - trainer - INFO -     test_my_metric2: 0.9813999999999997
+2021-12-11 20:08:53,258 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 20:12:40,391 - trainer - INFO -     epoch          : 21
+2021-12-11 20:12:40,392 - trainer - INFO -     loss           : 5.4277638535365424
+2021-12-11 20:12:40,392 - trainer - INFO -     my_metric      : 1.991951726342711
+2021-12-11 20:12:40,393 - trainer - INFO -     my_metric2     : 3.7177829283887465
+2021-12-11 20:12:40,393 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:12:40,394 - trainer - INFO -     val_loss       : 0.7752809929847717
+2021-12-11 20:12:40,394 - trainer - INFO -     val_my_metric  : 0.7580000000000002
+2021-12-11 20:12:40,395 - trainer - INFO -     val_my_metric2 : 0.9843999999999997
+2021-12-11 20:12:40,395 - trainer - INFO -     test_loss      : 0.8616507697105408
+2021-12-11 20:12:40,396 - trainer - INFO -     test_my_metric : 0.7253000000000002
+2021-12-11 20:12:40,396 - trainer - INFO -     test_my_metric2: 0.9789999999999991
+2021-12-11 20:12:40,624 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 20:16:28,017 - trainer - INFO -     epoch          : 22
+2021-12-11 20:16:28,018 - trainer - INFO -     loss           : 5.394471348094209
+2021-12-11 20:16:28,019 - trainer - INFO -     my_metric      : 2.0107976342711
+2021-12-11 20:16:28,020 - trainer - INFO -     my_metric2     : 3.7182265025575445
+2021-12-11 20:16:28,020 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:16:28,021 - trainer - INFO -     val_loss       : 0.7885490179061889
+2021-12-11 20:16:28,021 - trainer - INFO -     val_my_metric  : 0.7450000000000001
+2021-12-11 20:16:28,022 - trainer - INFO -     val_my_metric2 : 0.9813999999999998
+2021-12-11 20:16:28,022 - trainer - INFO -     test_loss      : 0.8757716637849807
+2021-12-11 20:16:28,023 - trainer - INFO -     test_my_metric : 0.7105
+2021-12-11 20:16:28,024 - trainer - INFO -     test_my_metric2: 0.9761999999999997
+2021-12-11 20:16:28,249 - trainer - INFO - Saving current model: current model save at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_epoch_22.pth ...
+2021-12-11 20:20:15,644 - trainer - INFO -     epoch          : 23
+2021-12-11 20:20:15,644 - trainer - INFO -     loss           : 5.345342235187131
+2021-12-11 20:20:15,645 - trainer - INFO -     my_metric      : 2.025915121483376
+2021-12-11 20:20:15,645 - trainer - INFO -     my_metric2     : 3.7230099104859335
+2021-12-11 20:20:15,646 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:20:15,646 - trainer - INFO -     val_loss       : 0.7560975432395936
+2021-12-11 20:20:15,647 - trainer - INFO -     val_my_metric  : 0.7437999999999999
+2021-12-11 20:20:15,647 - trainer - INFO -     val_my_metric2 : 0.9826
+2021-12-11 20:20:15,648 - trainer - INFO -     test_loss      : 0.8461478561162948
+2021-12-11 20:20:15,648 - trainer - INFO -     test_my_metric : 0.7112999999999997
+2021-12-11 20:20:15,648 - trainer - INFO -     test_my_metric2: 0.9782
+2021-12-11 20:20:15,857 - trainer - INFO - Saving current model: current model save at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_epoch_23.pth ...
+2021-12-11 20:24:03,503 - trainer - INFO -     epoch          : 24
+2021-12-11 20:24:03,504 - trainer - INFO -     loss           : 5.285010559784482
+2021-12-11 20:24:03,505 - trainer - INFO -     my_metric      : 2.048077845268542
+2021-12-11 20:24:03,505 - trainer - INFO -     my_metric2     : 3.732428868286445
+2021-12-11 20:24:03,506 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:24:03,506 - trainer - INFO -     val_loss       : 0.7121515846252442
+2021-12-11 20:24:03,507 - trainer - INFO -     val_my_metric  : 0.7728
+2021-12-11 20:24:03,507 - trainer - INFO -     val_my_metric2 : 0.9839999999999997
+2021-12-11 20:24:03,508 - trainer - INFO -     test_loss      : 0.8201499330997467
+2021-12-11 20:24:03,508 - trainer - INFO -     test_my_metric : 0.727
+2021-12-11 20:24:03,509 - trainer - INFO -     test_my_metric2: 0.9793999999999993
+2021-12-11 20:24:03,726 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 20:27:51,489 - trainer - INFO -     epoch          : 25
+2021-12-11 20:27:51,492 - trainer - INFO -     loss           : 5.265743157442878
+2021-12-11 20:27:51,492 - trainer - INFO -     my_metric      : 2.0544437340153454
+2021-12-11 20:27:51,493 - trainer - INFO -     my_metric2     : 3.736604859335038
+2021-12-11 20:27:51,494 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:27:51,494 - trainer - INFO -     val_loss       : 0.758757848739624
+2021-12-11 20:27:51,495 - trainer - INFO -     val_my_metric  : 0.7530000000000001
+2021-12-11 20:27:51,495 - trainer - INFO -     val_my_metric2 : 0.9856
+2021-12-11 20:27:51,496 - trainer - INFO -     test_loss      : 0.8713209187984466
+2021-12-11 20:27:51,496 - trainer - INFO -     test_my_metric : 0.7161000000000002
+2021-12-11 20:27:51,497 - trainer - INFO -     test_my_metric2: 0.9806999999999994
+2021-12-11 20:27:51,729 - trainer - INFO - Saving current model: current model save at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_epoch_25.pth ...
+2021-12-11 20:31:39,421 - trainer - INFO -     epoch          : 26
+2021-12-11 20:31:39,422 - trainer - INFO -     loss           : 5.204798582264834
+2021-12-11 20:31:39,423 - trainer - INFO -     my_metric      : 2.0818654092071616
+2021-12-11 20:31:39,423 - trainer - INFO -     my_metric2     : 3.7403093030690537
+2021-12-11 20:31:39,424 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:31:39,424 - trainer - INFO -     val_loss       : 0.7151451456546783
+2021-12-11 20:31:39,425 - trainer - INFO -     val_my_metric  : 0.7891999999999999
+2021-12-11 20:31:39,425 - trainer - INFO -     val_my_metric2 : 0.9882
+2021-12-11 20:31:39,426 - trainer - INFO -     test_loss      : 0.8114189666509628
+2021-12-11 20:31:39,426 - trainer - INFO -     test_my_metric : 0.7441000000000002
+2021-12-11 20:31:39,427 - trainer - INFO -     test_my_metric2: 0.9838999999999994
+2021-12-11 20:31:39,646 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 20:35:27,163 - trainer - INFO -     epoch          : 27
+2021-12-11 20:35:27,164 - trainer - INFO -     loss           : 5.164725430176386
+2021-12-11 20:35:27,164 - trainer - INFO -     my_metric      : 2.0917519181585678
+2021-12-11 20:35:27,165 - trainer - INFO -     my_metric2     : 3.7508232097186696
+2021-12-11 20:35:27,165 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:35:27,165 - trainer - INFO -     val_loss       : 0.686578608751297
+2021-12-11 20:35:27,166 - trainer - INFO -     val_my_metric  : 0.7822
+2021-12-11 20:35:27,166 - trainer - INFO -     val_my_metric2 : 0.988
+2021-12-11 20:35:27,167 - trainer - INFO -     test_loss      : 0.7972257196903229
+2021-12-11 20:35:27,167 - trainer - INFO -     test_my_metric : 0.7333
+2021-12-11 20:35:27,168 - trainer - INFO -     test_my_metric2: 0.9838999999999991
+2021-12-11 20:35:27,391 - trainer - INFO - Saving current model: current model save at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_epoch_27.pth ...
+2021-12-11 20:39:14,992 - trainer - INFO -     epoch          : 28
+2021-12-11 20:39:14,993 - trainer - INFO -     loss           : 5.129833744767377
+2021-12-11 20:39:14,993 - trainer - INFO -     my_metric      : 2.102409686700767
+2021-12-11 20:39:14,994 - trainer - INFO -     my_metric2     : 3.7525335677749356
+2021-12-11 20:39:14,995 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:39:14,995 - trainer - INFO -     val_loss       : 0.725249902009964
+2021-12-11 20:39:14,996 - trainer - INFO -     val_my_metric  : 0.7873999999999998
+2021-12-11 20:39:14,996 - trainer - INFO -     val_my_metric2 : 0.9875999999999999
+2021-12-11 20:39:14,997 - trainer - INFO -     test_loss      : 0.83683365046978
+2021-12-11 20:39:14,998 - trainer - INFO -     test_my_metric : 0.7419000000000001
+2021-12-11 20:39:14,998 - trainer - INFO -     test_my_metric2: 0.9823999999999993
+2021-12-11 20:39:15,239 - trainer - INFO - Saving current model: current model save at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_epoch_28.pth ...
+2021-12-11 20:43:02,925 - trainer - INFO -     epoch          : 29
+2021-12-11 20:43:02,926 - trainer - INFO -     loss           : 5.097354874129185
+2021-12-11 20:43:02,927 - trainer - INFO -     my_metric      : 2.1144341432225064
+2021-12-11 20:43:02,928 - trainer - INFO -     my_metric2     : 3.754623561381074
+2021-12-11 20:43:02,928 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:43:02,929 - trainer - INFO -     val_loss       : 0.7352485918998718
+2021-12-11 20:43:02,929 - trainer - INFO -     val_my_metric  : 0.7562000000000001
+2021-12-11 20:43:02,930 - trainer - INFO -     val_my_metric2 : 0.9813999999999994
+2021-12-11 20:43:02,930 - trainer - INFO -     test_loss      : 0.8482181906700135
+2021-12-11 20:43:02,931 - trainer - INFO -     test_my_metric : 0.7199999999999995
+2021-12-11 20:43:02,932 - trainer - INFO -     test_my_metric2: 0.9729999999999993
+2021-12-11 20:43:03,166 - trainer - INFO - Saving current model: current model save at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_epoch_29.pth ...
+2021-12-11 20:46:50,552 - trainer - INFO -     epoch          : 30
+2021-12-11 20:46:50,552 - trainer - INFO -     loss           : 5.0574900704576535
+2021-12-11 20:46:50,553 - trainer - INFO -     my_metric      : 2.1290920716112534
+2021-12-11 20:46:50,553 - trainer - INFO -     my_metric2     : 3.762296195652173
+2021-12-11 20:46:50,554 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:46:50,554 - trainer - INFO -     val_loss       : 0.6932136178016662
+2021-12-11 20:46:50,555 - trainer - INFO -     val_my_metric  : 0.7830000000000001
+2021-12-11 20:46:50,555 - trainer - INFO -     val_my_metric2 : 0.9900000000000001
+2021-12-11 20:46:50,556 - trainer - INFO -     test_loss      : 0.8180897396802902
+2021-12-11 20:46:50,556 - trainer - INFO -     test_my_metric : 0.7330999999999999
+2021-12-11 20:46:50,557 - trainer - INFO -     test_my_metric2: 0.9832999999999995
+2021-12-11 20:46:50,766 - trainer - INFO - Saving current model: current model save at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_epoch_30.pth ...
+2021-12-11 20:50:38,308 - trainer - INFO -     epoch          : 31
+2021-12-11 20:50:38,309 - trainer - INFO -     loss           : 5.0077733563645115
+2021-12-11 20:50:38,310 - trainer - INFO -     my_metric      : 2.1507792519181583
+2021-12-11 20:50:38,310 - trainer - INFO -     my_metric2     : 3.7691336317135553
+2021-12-11 20:50:38,311 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:50:38,311 - trainer - INFO -     val_loss       : 0.654314992427826
+2021-12-11 20:50:38,312 - trainer - INFO -     val_my_metric  : 0.7990000000000004
+2021-12-11 20:50:38,312 - trainer - INFO -     val_my_metric2 : 0.9882
+2021-12-11 20:50:38,313 - trainer - INFO -     test_loss      : 0.7750347113609314
+2021-12-11 20:50:38,313 - trainer - INFO -     test_my_metric : 0.7436
+2021-12-11 20:50:38,314 - trainer - INFO -     test_my_metric2: 0.9846999999999991
+2021-12-11 20:50:38,534 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 20:54:26,055 - trainer - INFO -     epoch          : 32
+2021-12-11 20:54:26,056 - trainer - INFO -     loss           : 4.97090083360672
+2021-12-11 20:54:26,056 - trainer - INFO -     my_metric      : 2.160645780051151
+2021-12-11 20:54:26,057 - trainer - INFO -     my_metric2     : 3.7737891624040922
+2021-12-11 20:54:26,057 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:54:26,058 - trainer - INFO -     val_loss       : 0.6592391753196716
+2021-12-11 20:54:26,058 - trainer - INFO -     val_my_metric  : 0.7910000000000003
+2021-12-11 20:54:26,059 - trainer - INFO -     val_my_metric2 : 0.9887999999999998
+2021-12-11 20:54:26,059 - trainer - INFO -     test_loss      : 0.7938309228420257
+2021-12-11 20:54:26,060 - trainer - INFO -     test_my_metric : 0.7392999999999996
+2021-12-11 20:54:26,060 - trainer - INFO -     test_my_metric2: 0.9806999999999991
+2021-12-11 20:54:26,283 - trainer - INFO - Saving current model: current model save at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_epoch_32.pth ...
+2021-12-11 20:58:13,718 - trainer - INFO -     epoch          : 33
+2021-12-11 20:58:13,719 - trainer - INFO -     loss           : 4.940552912404775
+2021-12-11 20:58:13,720 - trainer - INFO -     my_metric      : 2.163598945012788
+2021-12-11 20:58:13,720 - trainer - INFO -     my_metric2     : 3.7777413682864442
+2021-12-11 20:58:13,721 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 20:58:13,721 - trainer - INFO -     val_loss       : 0.6452870011329651
+2021-12-11 20:58:13,722 - trainer - INFO -     val_my_metric  : 0.8034000000000002
+2021-12-11 20:58:13,722 - trainer - INFO -     val_my_metric2 : 0.9893999999999998
+2021-12-11 20:58:13,723 - trainer - INFO -     test_loss      : 0.7841474741697312
+2021-12-11 20:58:13,723 - trainer - INFO -     test_my_metric : 0.7466000000000003
+2021-12-11 20:58:13,724 - trainer - INFO -     test_my_metric2: 0.9828999999999997
+2021-12-11 20:58:13,963 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...
+2021-12-11 21:02:01,622 - trainer - INFO -     epoch          : 34
+2021-12-11 21:02:01,623 - trainer - INFO -     loss           : 4.882075966471601
+2021-12-11 21:02:01,624 - trainer - INFO -     my_metric      : 2.18747202685422
+2021-12-11 21:02:01,624 - trainer - INFO -     my_metric2     : 3.7831601662404095
+2021-12-11 21:02:01,625 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 21:02:01,625 - trainer - INFO -     val_loss       : 0.6342578333616257
+2021-12-11 21:02:01,626 - trainer - INFO -     val_my_metric  : 0.8004000000000001
+2021-12-11 21:02:01,626 - trainer - INFO -     val_my_metric2 : 0.9921999999999999
+2021-12-11 21:02:01,627 - trainer - INFO -     test_loss      : 0.7732789200544358
+2021-12-11 21:02:01,627 - trainer - INFO -     test_my_metric : 0.7438999999999999
+2021-12-11 21:02:01,628 - trainer - INFO -     test_my_metric2: 0.9847999999999998
+2021-12-11 21:02:01,853 - trainer - INFO - Saving current model: current model save at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_epoch_34.pth ...
+2021-12-11 21:05:49,577 - trainer - INFO -     epoch          : 35
+2021-12-11 21:05:49,578 - trainer - INFO -     loss           : 4.843900275047478
+2021-12-11 21:05:49,579 - trainer - INFO -     my_metric      : 2.203240888746803
+2021-12-11 21:05:49,579 - trainer - INFO -     my_metric2     : 3.7916120524296675
+2021-12-11 21:05:49,579 - trainer - INFO -     learning rate  : [0.001, 0.001, 0.001, 0.001]
+2021-12-11 21:05:49,580 - trainer - INFO -     val_loss       : 0.6535458719730377
+2021-12-11 21:05:49,580 - trainer - INFO -     val_my_metric  : 0.8054000000000001
+2021-12-11 21:05:49,581 - trainer - INFO -     val_my_metric2 : 0.9905999999999997
+2021-12-11 21:05:49,581 - trainer - INFO -     test_loss      : 0.7717284238338471
+2021-12-11 21:05:49,582 - trainer - INFO -     test_my_metric : 0.7541999999999999
+2021-12-11 21:05:49,582 - trainer - INFO -     test_my_metric2: 0.9827999999999995
+2021-12-11 21:05:49,809 - trainer - INFO - Saving current best: model_best.pth at: saved/models/Robust_WideResNet16_5_Vanilla_CIFAR10DataLoaderResNet16_5-num_classes-10-norm_layer_type-no-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1211_185253/model_best.pth ...

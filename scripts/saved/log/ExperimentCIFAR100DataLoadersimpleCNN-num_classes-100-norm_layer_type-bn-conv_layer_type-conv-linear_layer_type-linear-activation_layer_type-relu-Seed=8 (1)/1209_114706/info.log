@@ -1,0 +1,13 @@
+2021-12-09 11:47:11,881 - train - INFO - Trainable parameters: 69708
+2021-12-09 11:47:27,563 - trainer - INFO -     epoch          : 1
+2021-12-09 11:47:27,564 - trainer - INFO -     loss           : 4.88581386185668
+2021-12-09 11:47:27,565 - trainer - INFO -     my_metric      : 0.009582800511508952
+2021-12-09 11:47:27,566 - trainer - INFO -     my_metric2     : 0.048681265984654734
+2021-12-09 11:47:27,566 - trainer - INFO -     learning rate  : [0.1, 0.1, 0.1, 0.1]
+2021-12-09 11:47:27,566 - trainer - INFO -     val_loss       : 4.621588954925537
+2021-12-09 11:47:27,567 - trainer - INFO -     val_my_metric  : 0.010000000000000002
+2021-12-09 11:47:27,567 - trainer - INFO -     val_my_metric2 : 0.05
+2021-12-09 11:47:27,567 - trainer - INFO -     test_loss      : 4.621588883399963
+2021-12-09 11:47:27,568 - trainer - INFO -     test_my_metric : 0.010000000000000004
+2021-12-09 11:47:27,568 - trainer - INFO -     test_my_metric2: 0.04999999999999996
+2021-12-09 11:47:27,583 - trainer - INFO - Saving current best: model_best.pth at: saved/models/ExperimentCIFAR100DataLoadersimpleCNN-num_classes-100-norm_layer_type-bn-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8/1209_114706/model_best.pth ...

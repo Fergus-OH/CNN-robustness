@@ -1,0 +1,82 @@
+{
+    "name": "Robust_WideResNet16_4_BN_",
+    "n_gpu": 1,
+    "seed": 8,
+    "comet": {
+        "api": "29J9SI8R6GmXPRzLaA70xtwW6",
+        "offline": true
+    },
+    "arch": {
+        "type": "ResNet16_4",
+        "args": {
+            "num_classes": 10,
+            "norm_layer_type": "bn",
+            "conv_layer_type": "conv",
+            "linear_layer_type": "linear",
+            "activation_layer_type": "relu"
+        }
+    },
+    "num_classes": 10,
+    "data_loader": {
+        "type": "CIFAR10DataLoader",
+        "args": {
+            "data_dir": "dataset_cifar10",
+            "batch_size": 128,
+            "shuffle": true,
+            "num_batches": 0,
+            "validation_split": 0,
+            "num_workers": 4,
+            "pin_memory": true
+        }
+    },
+    "optimizer": {
+        "type": "AdamW",
+        "args": {
+            "lr": 0.001
+        }
+    },
+    "train_loss": "cross_entropy",
+    "val_loss": "cross_entropy",
+    "metrics": [
+        "my_metric",
+        "my_metric2"
+    ],
+    "lr_scheduler": {
+        "type": "MultiStepLR",
+        "args": {
+            "milestones": [
+                100,
+                200
+            ],
+            "gamma": 0.1
+        }
+    },
+    "trainer": {
+        "epochs": 40,
+        "save_dir": "saved/",
+        "save_period": 1,
+        "verbosity": 2,
+        "label_dir": "saved/",
+        "monitor": "max val_my_metric",
+        "early_stop": 2000,
+        "_percent": "Percentage of noise",
+        "percent": 0.0,
+        "_subset_percent": "Percentage of training data to use",
+        "subset_percent": 1.0,
+        "_asym": "Asymmetric noise if true",
+        "asym": false,
+        "_sym": "Symmetric noise if true",
+        "sym": false,
+        "OCNN": false,
+        "lamb_ocnn": 0.001,
+        "do_adv": true,
+        "fgsm_step": 8,
+        "adv_clip_eps": 8,
+        "adv_repeats": 4
+    },
+    "pgd_attack": {
+        "K": 10,
+        "step": 2
+    },
+    "exper_name": "Robust_WideResNet16_4_BN_CIFAR10DataLoaderResNet16_4-num_classes-10-norm_layer_type-bn-conv_layer_type-conv-linear_layer_type-linear-activation_layer_type-relu-Seed=8"
+}

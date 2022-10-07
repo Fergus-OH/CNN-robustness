@@ -9,10 +9,11 @@
     },
 
     "arch": {
-        "type": "resnet18",
-        "args": {"num_classes": 100,
+        "type": "CNN",
+        "args": {
+                 "num_classes": 100,
                  "norm_layer_type": "bn",
-                 "conv_layer_type": "conv",
+                 "conv_layer_type": "prec_conv",
                  "linear_layer_type": "linear",
                  "activation_layer_type": "relu"}
     },
@@ -22,7 +23,7 @@
     "data_loader": {
         "type": "CIFAR100DataLoader",
 	"args":{
-            "data_dir": "**data dir**",
+            "data_dir": "dataset_cifar100",
             "batch_size": 128,
             "shuffle": true,
             "num_batches": 0,

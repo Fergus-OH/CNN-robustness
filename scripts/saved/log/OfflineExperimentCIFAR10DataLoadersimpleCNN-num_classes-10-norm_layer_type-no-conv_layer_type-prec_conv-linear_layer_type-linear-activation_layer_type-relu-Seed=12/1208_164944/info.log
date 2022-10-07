@@ -1,0 +1,13 @@
+2021-12-08 16:49:49,307 - train - INFO - Trainable parameters: 24546
+2021-12-08 16:50:05,740 - trainer - INFO -     epoch          : 1
+2021-12-08 16:50:05,741 - trainer - INFO -     loss           : 2.3394581972790496
+2021-12-08 16:50:05,742 - trainer - INFO -     my_metric      : 0.1047434462915601
+2021-12-08 16:50:05,742 - trainer - INFO -     my_metric2     : 0.5108695652173914
+2021-12-08 16:50:05,743 - trainer - INFO -     learning rate  : [0.1, 0.1, 0.1, 0.1]
+2021-12-08 16:50:05,743 - trainer - INFO -     val_loss       : 2.2506511783599854
+2021-12-08 16:50:05,743 - trainer - INFO -     val_my_metric  : 0.21
+2021-12-08 16:50:05,744 - trainer - INFO -     val_my_metric2 : 0.7108
+2021-12-08 16:50:05,744 - trainer - INFO -     test_loss      : 2.241415786743164
+2021-12-08 16:50:05,745 - trainer - INFO -     test_my_metric : 0.20950000000000008
+2021-12-08 16:50:05,745 - trainer - INFO -     test_my_metric2: 0.7199999999999998
+2021-12-08 16:50:05,757 - trainer - INFO - Saving current best: model_best.pth at: saved/models/OfflineExperimentCIFAR10DataLoadersimpleCNN-num_classes-10-norm_layer_type-no-conv_layer_type-prec_conv-linear_layer_type-linear-activation_layer_type-relu-Seed=12/1208_164944/model_best.pth ...
