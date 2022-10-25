@@ -23,10 +23,10 @@ In this work, we extend ConvNorm by adding implementation for the WideResNet arc
 ## Results
 ### Test accuracy of WideResNet-16-*k* with various normalization techniques
 <p align="center">
-  <img src="./plots/width.png" width="500"/>
-  <img src="./plots/barchart.png" width="500"/>
-  <img src="./plots/ConvNorm+BN.jpg" width="500"/>
-  <img src="./plots/k=3.jpg" width="500"/>
+  <img src="./plots/width.png" width="400"/>
+  <img src="./plots/barchart.png" width="400"/>
+  <img src="./plots/ConvNorm+BN.jpg" width="400"/>
+  <img src="./plots/k=3.jpg" width="400"/>
   <figcaption align="center">
     These figures demonstrate several results regarding the width of WideResNet-16, batch normalization (BN), and ConvNorm with respect to natural test accuracy.
     ConvNorm, BN, and their combination improved natural test accuracy across various widths for the architecture.
